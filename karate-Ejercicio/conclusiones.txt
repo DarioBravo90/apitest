@@ -1,0 +1,6 @@
+La herramienta de Karate es de facil uso tanto para desarrolladores como para tester para automatizacion de APIS.
+
+La automatización de APIS permite abarcar mayor cantidad de casos y una mejor y optima cobertura de escenarios.
+
+En cada escenario permite analizar los resultados mediante reportes; lo cual facilita el entendimiento de los posibles errores presentados.
+
