@@ -1,0 +1,4 @@
+idcase,username,Vusername,password,Vpassword,statuscode,response
+case1,username,dario123bravo,password,dario123bravo,200,'Auth_token'
+case2,username,dariobravo,password,1111111,200,{"errorMessage":"User does not exist."}{"errorMessage":"Wrong password."}
+case2,username,dario123bravo,password,1111111,200,{"errorMessage":"Wrong password."}

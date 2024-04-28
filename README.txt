@@ -13,9 +13,13 @@ Por: Dario Bravo
       2.1. Abrir el IDE IntellijIdea
       2.2. Ingresar en la opción File y abrir el proyecto
       2.3. Esperar unos minutos para que se descargen las despendencias (gradle)
-      2.4. Ubicarse y ejecutar la clase \demoblaze-karate\src\test\java\user\Start.java.
-      2.5. Se ejecutaran los features en paralelo.- El valor Vusername queda con uno no existente en caso de una segunda ejecución del signup.feature se debe de 	   modificar
-      2.6. Una vez finalizada la ejecución se puede visualizar los resulatdos en el reporte propio de Karate.
+      2.4. Ubicarse y ejecutar la clase \demoblaze-karate\src\test\java\user\RunnerTests.java
+      2.5. Se ejecutaran los features en paralelo.- El valor Vusername queda con uno no existente en caso de una segunda ejecución del signup.feature se debe de modificar.
+      2.6. El escenario https://api.demoblaze.com/login consume los datos del archivo \demoblaze-karate\src\test\java\user\test.csv; mientras que el escenario https://api.demoblaze.com/signup
+	   consume los datos outline.
+      2.7. Una vez finalizada la ejecución se puede visualizar los resulatdos en el reporte propio de Karate.
          para visualizarlo ubicarse en la ruta /build/karate-reports/karate-summary.html
+      2.8. Se adjunta los resultados de las pruebas ejecutas dentro de la carpeta Evidencias.
+
      
 

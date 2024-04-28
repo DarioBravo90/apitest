@@ -11,12 +11,15 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class Start {
     @Test
     void testParallel(){
         Results results =  Runner.path("classpath:user").outputCucumberJson(true).parallel(4);
         generateReport(results.getReportDir());
+        assertEquals(0, results.getFailCount(), results.getErrorMessages());
     }
 
     public static void generateReport(String karateOutputPath){
